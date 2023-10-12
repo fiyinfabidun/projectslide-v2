@@ -22,7 +22,7 @@ const[error, setError]= useState('')
     setError('')
     try{
       await Signup(usermail,userPassword);
-      navigate('/login')
+      navigate('/')
     }  catch (error) {
       // Set the error message in state
       setError('An error occurred 😢 . Please try again.');
