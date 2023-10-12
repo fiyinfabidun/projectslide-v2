@@ -1,0 +1,447 @@
+.intro{
+    font-family: 'McLaren', cursive;
+}
+section{
+   
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+.image{
+    background-color: #7fa1ea;
+    /* background-color: #01255b */
+}
+.image-login{
+    background-color: #f1b4ef;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    outline: none;
+    border: 2px solid #01255b;
+    background-color: #f2f0f0;
+    font-size: 16px;
+
+}
+input:hover{
+    border: 2px solid #8fb0f2;
+    background-color: #b9cbf2;
+}
+.signed{
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    outline: none;
+    border: 2px solid #650164;
+    background-color: #f2f0f0;
+    font-size: 16px;
+}
+.signed:hover{
+    border: 2px solid #f29cef;
+    background-color: #fcdefb;
+}
+.intro-login,
+.intro-login-signed{
+    font-size: 40px;
+    font-family: 'McLaren', cursive;
+   
+}
+.intro-login b{
+    border-left: 15px solid #0545a5;
+    padding-left: 5px;
+}
+.intro-login-signed b{
+    border-left: 15px solid #650164;
+    padding-left: 5px;
+}
+.flex{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+::placeholder{
+    font-size: 15px;
+    color: black;
+}
+.login-btn{
+    padding: 10px 30px;
+    border: none;
+    background-color: #01255b;
+    color: white;
+    margin: 20px;
+}
+.login-btn-signed{
+    background-color: #650164;
+    padding: 10px 30px;
+    border: none;
+    /* background-color: #01255b; */
+    color: white;
+    margin: 20px;
+}
+
+.blue-text{
+    text-align: center;
+    color: #01255b;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.error{
+    padding: 15px;
+    background-color: rgb(239, 163, 163);
+    color: rgb(243, 43, 43);
+    margin: 10px;
+    
+}
+.intro-text{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'McLaren', cursive;
+}
+h3.text-question{
+    text-align: center;
+}
+.title{
+    border-left: 5px #01255b;
+}
+
+
+.class-links{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   justify-content: center;
+   place-content: center;
+   place-items: center;
+
+}
+.icon{
+    width: 40px;
+}
+
+.class-links button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    border: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 10px; */
+    padding: 0 20px;
+    background-color: black;
+}
+.navbar h3{
+    font-family: cursive;
+    color: white;
+
+}
+.navbar button{
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    border: none;
+    
+}
+.navbar button:hover{
+    background-color: #c1bdbd;
+}
+.first-segment,
+.class-section{
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+}
+.first-segment .picture img{
+    width: 100%;
+}
+.welcome-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+ 
+}
+.welcome-text h2{
+    font-size: 45px;
+    border-left: 25px solid rgb(241, 241, 118);
+    padding-left: 5px;
+    font-family: 'McLaren', cursive;
+    
+}
+.welcome-text p{
+   text-align: start;
+   font-family: 'Nunito Sans', sans-serif;
+   font-size: 20px;
+}
+.welcome-text b{
+    color: rgb(249, 45, 79);
+}
+.homepage{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(243, 195, 195);
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.hero{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+   font-family: 'Nunito Sans', sans-serif;
+
+}
+.hero h2{
+   text-transform: capitalize;
+   text-decoration: underline lightblue;
+}
+.hero .info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 20px;
+    place-items: center;
+}
+.first-info,
+.second-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+   font-family: 'Nunito Sans', sans-serif;
+   text-align: start;
+   color: rgb(36, 36, 36);
+
+}
+.first-info{
+    background-color: rgb(104, 148, 171);
+}
+.second-info{
+    background-color: rgb(243, 195, 195);
+}
+.class-box{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(104, 148, 171);
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.class-box:hover{
+    background-color: mistyrose;
+}
+.classes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.class-hero{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 100px;
+    color: #dcd7d7;
+   
+} a{
+    text-decoration: none;
+    color: white;
+}
+.link{
+    color: rgb(39, 193, 114);
+}
+.vault-text{
+    font-weight: 100;
+    padding: 20px;
+    font-size: 30px;
+}
+.topics{
+    color: black;
+}
+.vault-section{
+    margin-bottom: 5px;
+   font-family: 'Nunito Sans', sans-serif;
+
+}
+.vault-section button{
+    padding: 10px 20px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-left: 5px solid rgb(104, 148, 171);
+    font-size: 15px;
+    color: black;
+    text-align: start;
+    /* margin-left: 10px; */
+ 
+}
+
+.header{
+    text-align: center;
+    font-weight: 200;
+    text-decoration: underline rgb(104, 148, 171);
+    font-size: 30px;
+}
+.courses-available{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+ 
+}
+.slides{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.slides a{
+    padding: 10px 5px;
+    margin-top: 3px;
+    background-color: #edeaea;
+    border-radius: 10px;
+   font-family: 'Nunito Sans', sans-serif;
+
+}
+.footer{
+ background-color: rgb(18, 18, 18);
+ position: relative;
+ top: 60px;
+}
+.footer-media,
+.class-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-media img{
+    width: 32px;
+    padding: 10px;
+}
+
+.class-link{
+   color: white;
+   flex-direction: row;
+   gap: 10px;
+   margin-bottom: 20px;
+   font-family: 'Nunito Sans', sans-serif;
+
+}
+@media screen and (max-width:800px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .intro-login{
+
+        font-size: 35px;
+        
+    }
+    .image,
+    .image-login{
+        border-bottom-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+    }
+    .class-links{
+        display: grid;
+        grid-template-columns: 1fr;}
+    .first-segment,
+    .class-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+   } 
+   .welcome-text{
+    padding: 10px;
+   }
+   .welcome-text h2{
+    font-size: 30px;
+    border-left: 15px solid rgb(241, 241, 118);
+    text-align: center;
+    padding-left: 0px;
+  }
+  .hero .info{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    place-items: center;
+    margin: 0 auto;  
+}
+.class-box{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+}
+.hero h2{
+   font-size: 30px;
+
+}
+.vault-section button{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.courses-available{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+   
+}
+.class-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+     
+}
+
+@media screen and (max-width:540px){
+    .class-hero{
+        font-size: 50px;
+        padding-top: 20px;
+       
+    }
+    .courses-available{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+.class-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+   
+}
