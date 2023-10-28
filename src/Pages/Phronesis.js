@@ -32,7 +32,7 @@ const MICRO=[
   { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
 ]
 const PHARMAC=[
-  { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
+  { file: `${lesson1}`, filename: 'Origin of pharmacology-prof olayemi', label: 'Origin of pharmacology' },
   { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
   { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
 ]
