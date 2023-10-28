@@ -4,9 +4,14 @@ import pan from '../assets/delph.jpg';
 
 function Pandora() {
   return (
-    <div>Pandora
+    <>
+     <NavBar/>
+        <HeroBakground 
+        title='Delphinium'
+        backgroundImage={pan}
+        />
       <Footer/>
-    </div>
+          </>
   )
 }
 
