@@ -33,7 +33,7 @@ const MICRO=[
 ]
 const PHARMAC=[
   { file: `${lesson1}`, filename: 'Origin of pharmacology-prof olayemi', label: 'Origin of pharmacology' },
-  { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
+  { file: `${lesson1}`, filename: 'Pharmacokinetics and structure-activity relationship of drugs', label: 'Pharmacokinetics and structure-activity' },
   { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
 ]
   return (
