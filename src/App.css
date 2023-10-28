@@ -455,21 +455,16 @@ h3.text-question{
   } 
     .hero h2{
    font-size: 22px;
-        margin-top:20px;
-        text-transform: uppercase;
+ margin-top:20px;
+ text-transform: uppercase;
 
 }
-.first-info,
-.second-info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    font-size: 16px;
+
+.first-info p,
+.second-info p{
+      font-size: 16px;
     line-height: 1.8em;
     width: 90%;
-
-
-}
    
+}
 }
