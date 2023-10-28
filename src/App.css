@@ -1,5 +1,5 @@
 .intro{
-    font-family: 'McLaren', cursive;
+    font-family: 'Nunito Sans', sans-serif;
 }
 section{
    
@@ -60,7 +60,7 @@ input:hover{
 .intro-login,
 .intro-login-signed{
     font-size: 40px;
-    font-family: 'McLaren', cursive;
+    font-family: 'Nunito Sans', sans-serif;
    
 }
 .intro-login b{
@@ -167,7 +167,7 @@ h3.text-question{
     
 }
 .navbar button:hover{
-    background-color: #c1bdbd;
+    background-color: rgba(243, 195, 195,0.7);
 }
 .first-segment,
 .class-section{
