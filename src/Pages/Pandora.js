@@ -1,7 +1,8 @@
-import React from 'react'
-import Footer from '../components/Footer'
+import React from 'react';
+import Footer from '../components/Footer';
 import pan from '../assets/delph.jpg';
 import NavBar from '../components/NavBar';
+import HeroBakground from '../components/HeroBakground';
 
 function Pandora() {
   return (
