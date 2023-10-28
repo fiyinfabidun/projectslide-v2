@@ -448,5 +448,14 @@ h3.text-question{
     align-items: center;
     flex-direction: column;
 }
+.welcome-text p{
+    font-size: 16px;
+    line-height:1.8em;
+   
+  } 
+    .hero h2{
+   font-size: 22px;
+
+}
    
 }
