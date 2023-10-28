@@ -49,11 +49,12 @@ const PHARMAC=[
     <h2 className='vault-text'>Welcome Phronesis, what are you getting from the vault?</h2>
     <h2 className='header'>Vault items available</h2>
     <div className="courses-available">
-    <Test label="Basic clinical chemistry- 331" links={CLINICAL_CHEM} downloadable={true}/>
-    <Test label="Basic Hematology- 332" links={HEAMAT} downloadable={true}/>
-    <Test label="Basic Microbiology- 333" links={HISTO} downloadable={true}/>
-    <Test label="Basic histopathology- 334" links={MICRO} downloadable={true}/>
-    <Test label="Basic pharmac theraputics" links={PHARMAC} downloadable={true}/>
+    <Test label="Basic clinical chemistry- 311" links={CLINICAL_CHEM} downloadable={true}/>
+    <Test label="Basic Hematology- 312" links={HEAMAT} downloadable={true}/>
+    <Test label="Basic Microbiology- 313" links={HISTO} downloadable={true}/>
+    <Test label="Basic histopathology- 314" links={MICRO} downloadable={true}/>
+    <Test label="General Biochemistry- 316" links={MICRO} downloadable={true}/>
+    <Test label="Basic pharmac theraputics-317" links={PHARMAC} downloadable={true}/>
 
    </div>
     
