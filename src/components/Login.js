@@ -69,7 +69,7 @@ const[error, setError]= useState('')
          }}/>
 
         <p>don't have an account? <Link to='/create'className='link'> create account </Link> </p>
-        <p>forgot password? <Link to='/reset-password' className='link'>rest password</Link></p>
+        <p>forgot password? <Link to='/reset-password' className='link'>reset password</Link></p>
         <button className='login-btn-signed'>Log in</button>
     </form>
     </section>
