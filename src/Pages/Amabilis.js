@@ -46,7 +46,7 @@ const PHARMAC=[
     />
     <div className="class-body">
     {/* <a href={lesson1} download='lesson1' className='link'>mls305</a> */}
-    <h2 className='vault-text'>Welcome Phronesis, what are you getting from the vault?</h2>
+    <h2 className='vault-text'>Welcome Amabilis, what are you getting from the vault?</h2>
     <h2 className='header'>Vault items available</h2>
     <div className="courses-available">
     <Test label="Body fluid and renal- 312" links={PHG312} downloadable={true}/>
