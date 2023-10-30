@@ -362,7 +362,7 @@ h3.text-question{
    font-family: 'Nunito Sans', sans-serif;
 
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
     .grid{
         grid-template-columns: 1fr;
     }
