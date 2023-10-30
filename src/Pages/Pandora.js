@@ -53,7 +53,7 @@ const PHARMAC=[
     <Test label="systemic toxicology- 316" links={MICRO} downloadable={true}/>
     <Test label="experimental pharmacology I-317" links={PHARMAC} downloadable={true}/>
     <Test label="Basic pharmacology and therapeutics I-317" links={PHARMAC} downloadable={true}/>
-    <Test label="General Biochemistry (No-majors)" links={PHARMAC} downloadable={true}/>  
+    <Test label="General Biochemistry (No-majors)" links={PHARMAC} downloadable={true}/>  </div>
     <Footer/>
      </>
   )
