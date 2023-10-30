@@ -475,6 +475,7 @@ h3.text-question{
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
+        margin-left:0;
    
 }
 }
