@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
-import pandora from '../assets/pandora-bg.jpg';
+import pandora from '../assets/pharmac-bg.jpg';
 import NavBar from '../components/NavBar';
 import HeroBakground from '../components/HeroBakground';
 
