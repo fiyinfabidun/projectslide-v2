@@ -39,7 +39,7 @@ const PHARMAC=[
     <NavBar/>
     <HeroBakground 
     title='Phronesis'
-    backgroundImage={picture}
+    backgroundImage={pandora}
     />
     <div className="class-body">
     {/* <a href={lesson1} download='lesson1' className='link'>mls305</a> */}
