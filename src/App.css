@@ -473,7 +473,7 @@ h3.text-question{
 }
     .courses-available{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr;
     place-items: center;
    
 }
