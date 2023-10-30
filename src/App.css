@@ -269,9 +269,12 @@ h3.text-question{
 .class-hero{
     margin: 0 auto;
     text-align: center;
-    padding-top: 100px;
+/*     padding-top: 100px; */
     font-size: 100px;
     color: #dcd7d7;
+    display:flex;
+    justify-content:center;
+    align-items:center;
    
 } a{
     text-decoration: none;
