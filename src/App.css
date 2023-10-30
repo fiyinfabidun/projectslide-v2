@@ -291,6 +291,9 @@ h3.text-question{
 .topics{
     color: black;
     text-align: start;
+    width:315px;
+    margin: 0 auto;
+    
 }
 .vault-section{
     margin-bottom: 5px;
