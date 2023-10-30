@@ -3,11 +3,11 @@ import Footer from '../components/Footer';
 import pandora from '../assets/pharmac-bg.jpg';
 import NavBar from '../components/NavBar';
 import HeroBakground from '../components/HeroBakground';
-import lesson1 from '../assets/mls.pdf'
+import lesson1 from '../assets/mls.pdf';
 import Test from './test';
 
 function Pandora() {
-     < const CLINICAL_CHEM=[
+    const CLINICAL_CHEM=[
     { file: `${lesson1}`, filename: 'introductory to microbiology', label: 'introductory tomicrobiology' },
     { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
     { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
@@ -55,7 +55,7 @@ const PHARMAC=[
     <Test label="Basic pharmacology and therapeutics I-317" links={PHARMAC} downloadable={true}/>
     <Test label="General Biochemistry (No-majors)" links={PHARMAC} downloadable={true}/>  
     <Footer/>
-          </>
+     </>
   )
 }
 
