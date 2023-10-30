@@ -442,6 +442,9 @@ h3.text-question{
     .class-hero{
         font-size: 50px;
         padding-top: 20px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
        
     }
     .courses-available{
