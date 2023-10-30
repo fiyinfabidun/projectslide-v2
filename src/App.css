@@ -317,6 +317,8 @@ h3.text-question{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     place-content: center;
+    justify-content:center;
+
    
  
 }
@@ -420,6 +422,7 @@ h3.text-question{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     place-items: center;
+    margin-left:20px;
    
 }
 .class-link{
