@@ -339,6 +339,7 @@ h3.text-question{
     margin-top: 3px;
     background-color: #edeaea;
     border-left: 5px solid pink;
+    width: 310px;
     font-family: 'Nunito Sans', sans-serif;
 
 }
