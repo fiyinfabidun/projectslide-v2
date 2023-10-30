@@ -10,7 +10,7 @@ function Pandora() {
      <NavBar/>
         <HeroBakground 
         title='pandora'
-        backgroundImage={pan}
+        backgroundImage={pandora}
         />
       <Footer/>
           </>
