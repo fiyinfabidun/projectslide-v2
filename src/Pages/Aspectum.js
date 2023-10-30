@@ -48,11 +48,11 @@ const PHARMAC=[
     <h2 className='vault-text'>Welcome Aspectum, what are you getting from the vault?</h2>
     <h2 className='header'>Vault items available</h2>
     <div className="courses-available">
-    <Test label="Basic clinical chemistry- 311" links={CLINICAL_CHEM} downloadable={true}/>
-    <Test label="Basic Hematology- 312" links={HEAMAT} downloadable={true}/>
-    <Test label="Basic Microbiology- 313" links={HISTO} downloadable={true}/>
-    <Test label="Basic histopathology- 314" links={MICRO} downloadable={true}/>
-    <Test label="General Biochemistry- 316" links={MICRO} downloadable={true}/>
+    <Test label="Radiobio, radiation protection- 311" links={CLINICAL_CHEM} downloadable={true}/>
+    <Test label="Radiographic anatomy,physiology - 312" links={HEAMAT} downloadable={true}/>
+    <Test label="Radiographic technique- 313" links={HISTO} downloadable={true}/>
+    <Test label="Introduction to graphic procedure- 314" links={MICRO} downloadable={true}/>
+    <Test label="General pathology- 316" links={MICRO} downloadable={true}/>
     <Test label="Basic pharmac thera-317" links={PHARMAC} downloadable={true}/>
 
    </div>
