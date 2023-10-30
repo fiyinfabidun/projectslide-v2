@@ -3,6 +3,8 @@ import Footer from '../components/Footer';
 import pandora from '../assets/pharmac-bg.jpg';
 import NavBar from '../components/NavBar';
 import HeroBakground from '../components/HeroBakground';
+import lesson1 from '../assets/mls.pdf'
+import Test from './test';
 
 function Pandora() {
      < const CLINICAL_CHEM=[
