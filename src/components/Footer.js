@@ -22,7 +22,7 @@ function Footer() {
             <Link to='/pandora'>Pandora</Link>
             <Link to='/amabilis'>Amabilis</Link>
             <Link to='/aspectum'>Aspectum</Link>
-            <Link to='/phoenix'>phoenix</Link>
+            <Link to='/phoenix'>Phoenix</Link>
           </div>
           <div className="footer-media">
                 <a href="https://instagram.com/f.iyin__?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
