@@ -49,7 +49,7 @@ const PHARMAC=[
     <h2 className='vault-text'>Welcome Phronesis, what are you getting from the vault?</h2>
     <h2 className='header'>Vault items available</h2>
     <div className="courses-available">
-    <Test label="Body fluid and renal- 312" links={CLINICAL_CHEM} downloadable={true}/>
+    <Test label="Body fluid and renal- 312" links={PHG312} downloadable={true}/>
     <Test label="cardiovascular phys 1- 313" links={HEAMAT} downloadable={true}/>
     <Test label="Respiratory physiology 1- 314" links={HISTO} downloadable={true}/>
     <Test label="Git and Nutrition- 315" links={MICRO} downloadable={true}/>
