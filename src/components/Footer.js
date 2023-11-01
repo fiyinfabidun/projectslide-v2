@@ -25,11 +25,12 @@ function Footer() {
             <Link to='/phoenix'>Phoenix</Link>
           </div>
           <div className="footer-media">
-                <a href="https://instagram.com/f.iyin__?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
-                 <img src={insta} alt="" />
-                </a>
+               
             <img src={whatsapp} alt="" />
             <img src={x} alt="" />
+            <a href="https://instagram.com/f.iyin__?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
+                 <img src={insta} alt="" />
+                </a>
           
 
           </div>
