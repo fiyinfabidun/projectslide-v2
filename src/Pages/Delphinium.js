@@ -28,7 +28,8 @@ function Delphinium() {
         <h2 className='vault-text'>Welcome Delphinium, what are you getting from the vault?</h2>
         <h2 className='header'>Vault items available</h2>
         <div className="courses-available">
-        <Test label="Basic histopathology- 334" links={links} downloadable={true}/>
+        <Test label="Basic histopathology- 334">
+            no vault items</Test>
 
           </div>
     
