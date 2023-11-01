@@ -9,13 +9,6 @@ import Footer from '../components/Footer';
 function Delphinium() {
     const links=[
         { file: `${lesson1}`, filename: 'Link 1', label: 'Link 1' },
-        { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
-        { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
-        { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
-        { file: `${lesson1}`, filename: 'Link 5', label: 'Link 5' },
-        { file: `${lesson1}`, filename: 'Link 6', label: 'Link 6' },
-        { file: `${lesson1}`, filename: 'Link 7', label: 'Link 7' },
-        { file: `${lesson1}`, filename: 'Link 8', label: 'Link 8' },
       ];
     return (
         <>
@@ -28,7 +21,16 @@ function Delphinium() {
         <h2 className='vault-text'>Welcome Delphinium, what are you getting from the vault?</h2>
         <h2 className='header'>Vault items available</h2>
         <div className="courses-available">
-        <Test label="Basic histopathology- 334" links={links} downloadable={true}/>
+        <Test label=" Electrotherapy 1;- 315" links={links} downloadable={true}/>
+         <Test label=" Electrotherapy II;;- PST 316" links={links} downloadable={true}/>
+         <Test label="Theory and practice of massage ;- PST 317" links={links} downloadable={true}/>
+         <Test label="Exercise therapy 1; Introduction to Movements;- PST 318 " links={links} downloadable={true}/>
+         <Test label="Introduction to Clinical Physiotherapy;-PST 319" links={links} downloadable={true}/>
+         <Test label=" Clinical Psychologyy;-PST 331" links={links} downloadable={true}/>
+         <Test label="Physiotherapy in Pharmacology;-PST 332" links={links} downloadable={true}/>
+         <Test label="Basic therapeutic skills;-CLS 311" links={links} downloadable={true}/>
+         <Test label="Foundation of Nursing 1 ( Nursing skills)- NSC 213" links={links} downloadable={true}/>
+         <Test label="Basic Pharmacology and Therapeutics 1;- PHA 317" links={links} downloadable={true}/>
 
           </div>
     
