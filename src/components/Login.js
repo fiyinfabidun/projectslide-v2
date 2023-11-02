@@ -13,7 +13,7 @@ function Login() {
 const [usermail, setmail] = useState('');
 const [userPassword, setUserpassword] = useState('')
 
-const {login} = UseUserAuth();
+const {login,googleSignIn} = UseUserAuth();
 const navigate = useNavigate();
 const[error, setError]= useState('')
 
@@ -33,6 +33,15 @@ const[error, setError]= useState('')
     setmail('')
    
   }
+  const handleGoogleSignIn = async (e) => {
+    e.preventDefault();
+    try {
+      await googleSignIn();
+      navigate("/home");
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
   
 
   return (
@@ -71,6 +80,7 @@ const[error, setError]= useState('')
         <p>don't have an account? <Link to='/create'className='link'> create account </Link> </p>
         <p>forgot password? <Link to='/reset-password' className='link'>reset password</Link></p>
         <button className='login-btn-signed'>Log in</button>
+        <button className='login-btn-signed' onClick={handleGoogleSignIn}>Sign in with Google</button>
     </form>
     </section>
     </>
