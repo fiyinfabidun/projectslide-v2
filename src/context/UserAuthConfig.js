@@ -28,7 +28,7 @@ export function UserAuthContextProvider({children}){
     }
   function googleSignIn() {
         const googleAuthProvider = new GoogleAuthProvider();
-        return signInWithPopup(auth, googleAuthProvider);
+        return signInWithPopup(dataBase, googleAuthProvider);
       }
 
 
