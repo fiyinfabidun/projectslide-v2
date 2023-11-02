@@ -162,9 +162,10 @@ function Login() {
 
           <p>Don't have an account? <Link to='/create' className='link'>Create account</Link></p>
           <p>Forgot password? <Link to='/reset-password' className='link'>Reset password</Link></p>
+          <p className='login-btn-signed' onClick={handleGoogleSignIn}>Sign in with Google</p>
           <button className='login-btn-signed' type="submit">Log in</button>
         </form>
-        <button className='login-btn-signed' onClick={handleGoogleSignIn}>Sign in with Google</button>
+       
       </section>
     </>
   );
