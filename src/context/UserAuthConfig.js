@@ -3,6 +3,8 @@ import { createContext } from 'react'
 import { createUserWithEmailAndPassword, 
          signOut,
          signInWithEmailAndPassword,
+         GoogleAuthProvider,
+         signInWithPopup,
          onAuthStateChanged ,
         sendPasswordResetEmail} from 'firebase/auth';
 import { dataBase } from '../components/Firebaseconfig';         
@@ -36,7 +38,7 @@ export function UserAuthContextProvider({children}){
     },[])
     
     return (
-        <UserAuthcontext.Provider value={{user, Signup,login, logOut, ResetPassword}}> {children}</UserAuthcontext.Provider>)
+        <UserAuthcontext.Provider value={{user, Signup,login, logOut, ResetPassword, googleSignIn}}> {children}</UserAuthcontext.Provider>)
     
 }
 
