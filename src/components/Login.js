@@ -7,12 +7,8 @@ import { UseUserAuth } from '../context/UserAuthConfig';
 
 
 function Login() {
-
-  
-
 const [usermail, setmail] = useState('');
 const [userPassword, setUserpassword] = useState('')
-
 const {login,googleSignIn} = UseUserAuth();
 const navigate = useNavigate();
 const[error, setError]= useState('')
@@ -26,11 +22,8 @@ const[error, setError]= useState('')
     }  catch (error) {
       // Set the error message in state
       setError(error.message);
-    }
- 
-    setUserpassword('')
-   
-    setmail('')
+    } setUserpassword('')
+      setmail('')
    
   }
   const handleGoogleSignIn = async (e) => {
@@ -80,8 +73,9 @@ const[error, setError]= useState('')
         <p>don't have an account? <Link to='/create'className='link'> create account </Link> </p>
         <p>forgot password? <Link to='/reset-password' className='link'>reset password</Link></p>
         <button className='login-btn-signed'>Log in</button>
-        <button className='login-btn-signed' onClick={handleGoogleSignIn}>Sign in with Google</button>
+        
     </form>
+          <button className='login-btn-signed' onClick={handleGoogleSignIn}>Sign in with Google</button>
     </section>
     </>
   )
