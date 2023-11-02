@@ -101,7 +101,10 @@ input:hover{
     height: 35px;
     text-align:center;
 }
-
+p.login-btn-signed{
+    display:flex;
+    align-items:center;
+    justify-content:center;
 .blue-text{
     text-align: center;
     color: #01255b;
