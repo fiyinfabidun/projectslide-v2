@@ -100,7 +100,12 @@ input:hover{
     width: 300px;
     height: 35px;
     text-align:center;
-    padding:5px;
+}
+p.login-btn-signed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
 }
 .blue-text{
     text-align: center;
