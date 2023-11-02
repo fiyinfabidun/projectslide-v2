@@ -26,6 +26,11 @@ export function UserAuthContextProvider({children}){
     function logOut(){
         return signOut(dataBase)
     }
+  function googleSignIn() {
+        const googleAuthProvider = new GoogleAuthProvider();
+        return signInWithPopup(auth, googleAuthProvider);
+      }
+
 
     useEffect(()=>{
      const unsubscribe = onAuthStateChanged(dataBase,(currentuser)=>{
