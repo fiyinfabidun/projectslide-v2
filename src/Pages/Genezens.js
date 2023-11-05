@@ -11,7 +11,7 @@ import Footer from '../components/Footer';
 
 function Genezens() {
   const CLINICAL_CHEM=[
-    { file: `${lesson1}`, filename: 'introductory to microbiology', label: 'introductory tomicrobiology' },
+    { file: `${lesson1}`, filename: 'introductory to microbiology', label: 'introductory tomicrobiology' }
   ];
   const HEAMAT=[
     { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' }
