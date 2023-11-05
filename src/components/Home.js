@@ -70,10 +70,10 @@ function Home() {
             <Link to='/aspectum'>Aspectum</Link>
           </div>
           <div className=" class-box pandora">
-            <Link to='/phoenix'>phoenix</Link>
+            <Link to='/phoenix'>Phoenix</Link>
           </div>
            <div className=" class-box pandora">
-            <Link to='/genezens'>phoenix</Link>
+            <Link to='/genezens'>Genezens</Link>
           </div>
           
          
