@@ -12,6 +12,7 @@ import Pandora from './Pages/Pandora';
 import Amabilis from './Pages/Amabilis';
 import Phoenix from './Pages/Phoenix';
 import Aspectum from './Pages/Aspectum';
+import Genezens from './pages/Genezens';
 
 function App() {
   return (
@@ -53,6 +54,11 @@ function App() {
 
         <Route path='/phoenix' element={<ProtectedRoute>
           <Phoenix/>
+        </ProtectedRoute>
+        }></Route>
+
+          <Route path='/phoenix' element={<ProtectedRoute>
+          <Genezens/>
         </ProtectedRoute>
         }></Route>
      </Routes>
