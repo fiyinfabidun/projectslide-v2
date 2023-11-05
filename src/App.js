@@ -12,7 +12,7 @@ import Pandora from './Pages/Pandora';
 import Amabilis from './Pages/Amabilis';
 import Phoenix from './Pages/Phoenix';
 import Aspectum from './Pages/Aspectum';
-import Genezens from './pages/Genezens';
+import Genezens from './Pages/Genezens';
 
 function App() {
   return (
