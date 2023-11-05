@@ -72,6 +72,9 @@ function Home() {
           <div className=" class-box pandora">
             <Link to='/phoenix'>phoenix</Link>
           </div>
+           <div className=" class-box pandora">
+            <Link to='/genezens'>phoenix</Link>
+          </div>
           
          
         </div>
