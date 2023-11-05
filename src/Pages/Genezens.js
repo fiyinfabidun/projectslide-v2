@@ -18,12 +18,12 @@ function Genezens() {
     <>
     <NavBar/>
     <HeroBakground 
-    title='Genezens'
+    title='Generalls'
     backgroundImage={gene}
     />
     <div className="class-body">
     {/* <a href={lesson1} download='lesson1' className='link'>mls305</a> */}
-    <h2 className='vault-text'>Welcome Genezens, what are you getting from the vault?</h2>
+    <h2 className='vault-text'>Welcome Generalls, what are you getting from the vault?</h2>
     <h2 className='header'>Vault items available</h2>
     <div className="courses-available">
     <Test label="hematology" links={CLINICAL_CHEM} downloadable={true}/>
