@@ -57,7 +57,7 @@ function App() {
         </ProtectedRoute>
         }></Route>
 
-          <Route path='/phoenix' element={<ProtectedRoute>
+          <Route path='/genezens' element={<ProtectedRoute>
           <Genezens/>
         </ProtectedRoute>
         }></Route>
