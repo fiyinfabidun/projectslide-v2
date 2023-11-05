@@ -23,6 +23,7 @@ function Footer() {
             <Link to='/amabilis'>Amabilis</Link>
             <Link to='/aspectum'>Aspectum</Link>
             <Link to='/phoenix'>Phoenix</Link>
+            <Link to='/genezens'>Genezens</Link>
           </div>
           <div className="footer-media">
                
