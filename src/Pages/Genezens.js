@@ -11,20 +11,8 @@ import Footer from '../components/Footer';
 
 function Genezens() {
   const CLINICAL_CHEM=[
-    { file: `${lesson1}`, filename: 'introductory to microbiology', label: 'introductory tomicrobiology' },
+    { file: `${lesson1}`, filename: 'Link 1', label: 'Link 1' },
   ];
-  const HEAMAT=[
-    { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
-]
-const HISTO=[
-  { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
-]
-const MICRO=[
-  { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
-]
-const PHARMAC=[
-  { file: `${lesson1}`, filename: 'Origin of pharmacology-prof olayemi', label: 'Origin of pharmacology' },
-]
   return (
 
     <>
@@ -39,10 +27,10 @@ const PHARMAC=[
     <h2 className='header'>Vault items available</h2>
     <div className="courses-available">
     <Test label="hematology" links={CLINICAL_CHEM} downloadable={true}/>
-    <Test label="morbid anatomy" links={HEAMAT} downloadable={true}/>
-    <Test label="clinical pathology" links={HISTO} downloadable={true}/>
-    <Test label="pharmacology" links={MICRO} downloadable={true}/>
-    <Test label="microbiology" links={MICRO} downloadable={true}/>
+    <Test label="morbid anatomy" links={CLINICAL_CHEM} downloadable={true}/>
+    <Test label="clinical pathology" links={CLINICAL_CHEM} downloadable={true}/>
+    <Test label="pharmacology" links={CLINICAL_CHEM}downloadable={true}/>
+    <Test label="microbiology" links={CLINICAL_CHEM} downloadable={true}/>
    </div>
    </div>
    
