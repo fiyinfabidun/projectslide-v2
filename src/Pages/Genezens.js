@@ -11,19 +11,19 @@ import Footer from '../components/Footer';
 
 function Genezens() {
   const CLINICAL_CHEM=[
-    { file: `${lesson1}`, filename: 'introductory to microbiology', label: 'introductory tomicrobiology' }
+    { file: `${lesson1}`, filename: 'introductory to microbiology', label: 'introductory tomicrobiology' },
   ];
   const HEAMAT=[
-    { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' }
+    { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
 ]
 const HISTO=[
-  { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' }
+  { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
 ]
 const MICRO=[
-  { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' }
+  { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
 ]
 const PHARMAC=[
-  { file: `${lesson1}`, filename: 'Origin of pharmacology-prof olayemi', label: 'Origin of pharmacology' }
+  { file: `${lesson1}`, filename: 'Origin of pharmacology-prof olayemi', label: 'Origin of pharmacology' },
 ]
   return (
 
