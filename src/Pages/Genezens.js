@@ -41,7 +41,7 @@ const PHARMAC=[
     <>
     <NavBar/>
     <HeroBakground 
-    title='Phoenix'
+    title='Genezens'
     backgroundImage={pnx}
     />
     <div className="class-body">
