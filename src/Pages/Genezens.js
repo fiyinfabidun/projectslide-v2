@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import HeroBakground from '../components/HeroBakground';
-import pnx from '../assets/phoenix.jpg'
+import gene from '../assets/genezens.jpg'
 // import PhronesisSlides from './PhroSLides';
 import lesson1 from '../assets/mls.pdf'
 import Test from './test';
@@ -42,7 +42,7 @@ const PHARMAC=[
     <NavBar/>
     <HeroBakground 
     title='Genezens'
-    backgroundImage={pnx}
+    backgroundImage={gene}
     />
     <div className="class-body">
     {/* <a href={lesson1} download='lesson1' className='link'>mls305</a> */}
