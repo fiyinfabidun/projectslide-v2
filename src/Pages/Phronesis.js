@@ -6,6 +6,8 @@ import picture from '../assets/phronesis.jpg'
 import lesson1 from '../assets/mls.pdf'
 import Test from './test';
 import Footer from '../components/Footer';
+// pharmac slides
+import phar1 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt'
 
 
 
@@ -32,7 +34,7 @@ const MICRO=[
   { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
 ]
 const PHARMAC=[
-  { file: `${lesson1}`, filename: 'Origin of pharmacology-prof olayemi', label: 'Origin of pharmacology' },
+  { file: `${phar1}`, filename: 'PHARMACOKINETICS AND PHARMACODYNAMICS', label: 'PHARMACOKINETICS AND PHARMACODYNAMICS' },
   { file: `${lesson1}`, filename: 'Pharmacokinetics and structure-activity relationship of drugs', label: 'Pharmacokinetics and structure-activity' },
   { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
 ]
