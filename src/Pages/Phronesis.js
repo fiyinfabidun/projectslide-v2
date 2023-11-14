@@ -34,7 +34,7 @@ const MICRO=[
   { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
 ]
 const PHARMAC=[
-  { file: `${phar1}`, filename: 'PHARMACOKINETICS AND PHARMACODYNAMICS', label: 'PHARMACOKINETICS AND PHARMACODYNAMICS' },
+  { file: `${phar1}`, filename: 'PHARMACOKINETICS AND PHARMACODYNAMICS', label: 'Pharmacokinectics and Pharmacodynamics' },
   { file: `${lesson1}`, filename: 'Pharmacokinetics and structure-activity relationship of drugs', label: 'Pharmacokinetics and structure-activity' },
   { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
 ]
