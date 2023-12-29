@@ -56,8 +56,8 @@ const PHARMAC=[
     <div className="courses-available">
     <Test label="Basic clinical chemistry- 311" links={CLINICAL_CHEM} downloadable={true}/>
     <Test label="Basic Hematology- 312" links={HEAMAT} downloadable={true}/>
-    <Test label="Basic Microbiology- 313" links={HISTO} downloadable={true}/>
-    <Test label="Basic histopathology- 314" links={MICRO} downloadable={true}/>
+    <Test label="Basic Microbiology- 313" links={MICRO} downloadable={true}/>
+    <Test label="Basic histopathology- 314" links={HISTO} downloadable={true}/>
     <Test label="General Biochemistry- 316" links={MICRO} downloadable={true}/>
     <Test label="Basic pharmac thera-317" links={PHARMAC} downloadable={true}/>
 
