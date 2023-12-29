@@ -1,16 +1,16 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import HeroBakground from '../components/HeroBakground';
-import picture from '../assets/phronesis.jpg'
+import picture from '../assets/phronesis.jpg';
 // import PhronesisSlides from './PhroSLides';
 import lesson1 from '../assets/mls.pdf'
 import Test from './test';
 import Footer from '../components/Footer';
 // pharmac slides
-import phar1 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt'
+import phar1 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt';
 // histo slides
-import fixation2 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt'
-import clear from '../assets/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION(EMBEDDING).ppt'
+import fixation2 from '../assets/FIXATION 2.ppt';
+import clear from '../assets/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION(EMBEDDING).ppt';
 
 
 
@@ -20,7 +20,7 @@ function Phronesis() {
     { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
     { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
     { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
-  ];
+  ]
   const HEAMAT=[
     { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
     { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
