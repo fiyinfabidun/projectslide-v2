@@ -16,7 +16,7 @@ import clear from '../assets/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION(EM
 
 function Phronesis() {
   const CLINICAL_CHEM=[
-    { file: `${lesson1}`, filename: 'introductory to microbiology', label: 'introductory tomicrobiology' },
+    { file: `${lesson1}`, filename: 'introductory to microbiology', label: 'introductory to microbiology' },
     { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
     { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
     { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
