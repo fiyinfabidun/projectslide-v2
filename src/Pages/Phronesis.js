@@ -11,6 +11,7 @@ import phar1 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt';
 // histo slides
 import fixation2 from '../assets/FIXATION 2.ppt';
 import clear from '../assets/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION(EMBEDDING).ppt';
+import tiisue from '../assets/TISSUE PROCESSING.ppt';
 
 
 
@@ -29,7 +30,7 @@ function Phronesis() {
 const HISTO=[
   { file: `${fixation2}`, filename: 'FIXATION 2', label: 'FIXATION 2' },
   { file: `${clear}`, filename: '/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION/(EMBEDDING)', label: ' DEHYDRATION, CLEARING, INFILTRATION' },
-  { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
+  { file: `${tissue}`, filename: 'TISSUE PROCESSING', label: 'TISSUE PROCESSING' },
 ]
 const MICRO=[
   { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
