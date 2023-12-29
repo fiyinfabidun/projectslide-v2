@@ -8,6 +8,9 @@ import Test from './test';
 import Footer from '../components/Footer';
 // pharmac slides
 import phar1 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt'
+// histo slides
+import fixation2 from '../assets/FIXATION 2.ppt'
+
 
 
 
@@ -24,7 +27,7 @@ function Phronesis() {
     { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
 ]
 const HISTO=[
-  { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
+  { file: `${fixation2}`, filename: 'FIXATION 2', label: 'FIXATION 2' },
   { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
   { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
 ]
