@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 import phar1 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt'
 // histo slides
 import fixation2 from '../assets/FIXATION 2.ppt'
-import clear from '../assets/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION/(EMBEDDING).ppt'
+import clear from '../assets/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION(EMBEDDING).ppt'
 
 
 
