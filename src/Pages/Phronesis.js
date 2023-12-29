@@ -9,9 +9,15 @@ import Footer from '../components/Footer';
 // pharmac slides
 import phar1 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt';
 // histo slides
+import intod from '../assets/INTRODUCTION_TO_HISTO_PATHOLOGY NEW (1).pptx';
+import intro from '../assets/INTRODUCTION TO FIXATION (2).pptx';
 import fixation2 from '../assets/FIXATION 2.ppt';
 import clear from '../assets/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION(EMBEDDING).ppt';
 import tissue from '../assets/TISSUE PROCESSING.ppt';
+// haemat slides
+import ert from '../assets/ERYTHROPOIESIS-1 (1).pptx';
+import redcount from '../assets/Red Cell Indices ppt (3).pptx';
+
 
 
 
@@ -23,11 +29,15 @@ function Phronesis() {
     { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
   ]
   const HEAMAT=[
-    { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
-    { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
+    { file: `${ert}`, filename: 'ERYTHROPOIESIS', label: 'ERYTHROPOIESIS' },
+    { file: `${redcount}`, filename: 'RED CELL INDICES', label: 'Red Cell Indices' },
     { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
+     { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
+     { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
 ]
 const HISTO=[
+    { file: `${intod}`, filename: 'INTRODUCTION_TO_HISTO_PATHOLOGY ', label: 'INTRODUCTION_TO_HISTO_PATHOLOGY ' },
+   { file: `${intro}`, filename: 'INTRODUCTION TO FIXATION', label: 'INTRODUCTION TO FIXATION' },
   { file: `${fixation2}`, filename: 'FIXATION 2', label: 'FIXATION 2' },
   { file: `${clear}`, filename: '/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION/(EMBEDDING)', label: ' DEHYDRATION, CLEARING, INFILTRATION' },
   { file: `${tissue}`, filename: 'TISSUE PROCESSING', label: 'TISSUE PROCESSING' },
