@@ -36,6 +36,11 @@ const MICRO=[
   { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
   { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
 ]
+  const BCH=[
+  { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
+  { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
+  { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
+]
 const PHARMAC=[
   { file: `${phar1}`, filename: 'PHARMACOKINETICS AND PHARMACODYNAMICS', label: 'Pharmacokinectics and Pharmacodynamics' },
   { file: `${lesson1}`, filename: 'Pharmacokinetics and structure-activity relationship of drugs', label: 'Pharmacokinetics and structure-activity' },
@@ -58,7 +63,7 @@ const PHARMAC=[
     <Test label="Basic Hematology- 312" links={HEAMAT} downloadable={true}/>
     <Test label="Basic Microbiology- 313" links={MICRO} downloadable={true}/>
     <Test label="Basic histopathology- 314" links={HISTO} downloadable={true}/>
-    <Test label="General Biochemistry- 316" links={MICRO} downloadable={true}/>
+    <Test label="General Biochemistry- 316" links={BCH} downloadable={true}/>
     <Test label="Basic pharmac thera-317" links={PHARMAC} downloadable={true}/>
 
    </div>
