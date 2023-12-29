@@ -17,8 +17,10 @@ import tissue from '../assets/TISSUE PROCESSING.ppt';
 // haemat slides
 import ert from '../assets/ERYTHROPOIESIS-1 (1).pptx';
 import redcount from '../assets/Red Cell Indices ppt (3).pptx';
-
-
+import meth from '../assets/Methods for Blood Cell Counting (2).pptx';
+import principle from '../assets/Principle and Mode of Action Common Anticoagulants (2).pdf';
+import bloodfilm from '../assets/Untitled presentation (1).pdf';
+import anticoagulants from '../assets/Principle and Mode of Action Common Anticoagulants (2).pdf';
 
 
 function Phronesis() {
@@ -30,10 +32,11 @@ function Phronesis() {
   ]
   const HEAMAT=[
     { file: `${ert}`, filename: 'ERYTHROPOIESIS', label: 'ERYTHROPOIESIS' },
-    { file: `${redcount}`, filename: 'RED CELL INDICES', label: 'Red Cell Indices' },
-    { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
-     { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
-     { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
+    { file: `${redcount}`, filename: 'RED CELL INDICES', label: 'RED CELL INDICES' },
+    { file: `${meth}`, filename: 'METHOD OF BLOOD CELL COUNTING', label: 'METHOD OF BLOOD CELL COUNTING' },
+     { file: `${principle}`, filename: 'Principle and Mode of Action Common Anticoagulants ', label: 'PRINCIPLE AND METHODS OF BLOOD CELL COUNTING' },
+     { file: `${bloodfilm}`, filename: 'peripheral blood film reading and examination', label: 'PERIPHERAL BLOOD FILM READING AND EXAMINATION' },
+    { file: `${anticoagulants}`, filename: 'Principle and Mode of Action Common Anticoagulants ', label: 'PRINCIPLE AND MODE OF ACTION OF COMMON ANTICOAGULANTS' },
 ]
 const HISTO=[
     { file: `${intod}`, filename: 'INTRODUCTION_TO_HISTO_PATHOLOGY ', label: 'INTRODUCTION_TO_HISTO_PATHOLOGY ' },
