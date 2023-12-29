@@ -3,10 +3,10 @@ import pictures from '../assets/delph.jpg';
 import NavBar from '../components/NavBar';
 import HeroBakground from '../components/HeroBakground';
 import Test from './test';
-import lesson1 from '../assets/mls.pdf'
 import Footer from '../components/Footer';
 // pharmac slides
-import phar2 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt'
+import phar2 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt';
+
 
 function Delphinium() {
     const links=[
