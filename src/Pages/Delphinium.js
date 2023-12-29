@@ -6,11 +6,11 @@ import Test from './test';
 import lesson1 from '../assets/mls.pdf'
 import Footer from '../components/Footer';
 // pharmac slides
-import phar1 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt'
+import phar2 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt'
 
 function Delphinium() {
     const links=[
-        { file: `${phar1}`, filename: 'PHARMACOKINETICS AND PHARMACODYNAMICS', label: 'Pharmacokinectics and Pharmacodynamics' },
+        { file: `${phar2}`, filename: 'PHARMACOKINETICS AND PHARMACODYNAMICS', label: 'Pharmacokinectics and Pharmacodynamics' },
       ];
     return (
         <>
