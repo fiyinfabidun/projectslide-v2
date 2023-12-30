@@ -36,7 +36,7 @@ function Phronesis() {
     { file: `${redcount}`, filename: 'RED CELL INDICES', label: 'RED CELL INDICES' },
     { file: `${meth}`, filename: 'METHOD OF BLOOD CELL COUNTING', label: 'METHOD OF BLOOD CELL COUNTING' },
      { file: `${func}`, filename: 'FUNCTIONS OF BLOOD CELLS', label: 'FUNCTIONS OF BLOOD CELLS' },
-     { file: `${principle}`, filename: 'Principle and Mode of Action Common Anticoagulants ', label: 'PRINCIPLE AND METHODS OF BLOOD CELL COUNTING' },
+     { file: `${principle}`, filename: 'Principle and Mode of Action Common Anticoagulants ', label: 'PRINCIPLE AND MODE OF ACTION OF COMMON ANTICOAGULANTS' },
      { file: `${bloodfilm}`, filename: 'peripheral blood film reading and examination', label: 'PERIPHERAL BLOOD FILM READING AND EXAMINATION' },
     { file: `${anticoagulants}`, filename: 'Principle and Mode of Action Common Anticoagulants ', label: 'PRINCIPLE AND MODE OF ACTION OF COMMON ANTICOAGULANTS' },
     
