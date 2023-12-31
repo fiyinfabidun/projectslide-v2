@@ -87,7 +87,7 @@
 
 
 import React, { useState } from 'react';
-import loginimage from '../assets/signed.png';
+import loginimage from '..assets/Tablet login-pana.png';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { UseUserAuth } from '../context/UserAuthConfig';
