@@ -101,12 +101,12 @@ input:hover,
     background-color: #650164;
     border: none;
     /* background-color: #01255b; */
-    color: white;
+/*     color: white;
     margin: 20px;
     width: 300px;
     height: 35px;
-    text-align:center;
-} */
+    text-align:center; */
+
 p.login-btn-signed{
     display: flex;
     justify-content: center;
