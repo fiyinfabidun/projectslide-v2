@@ -66,14 +66,15 @@ input:hover,
     font-family: 'Nunito Sans', sans-serif;
    
 }
-.intro-login b{
+.intro-login b,
+.intro-login-signed b{
     border-left: 15px solid #0545a5;
     padding-left: 5px;
 }
-.intro-login-signed b{
+/* .intro-login-signed b{
     border-left: 15px solid #650164;
     padding-left: 5px;
-}
+} */
 .flex{
    display: flex;
    flex-direction: column;
@@ -85,7 +86,9 @@ input:hover,
     font-size: 15px;
     color: black;
 }
-.login-btn{
+.login-btn,
+.login-btn-signed
+{
     padding: 10px 30px;
     border: none;
     background-color: #01255b;
@@ -94,7 +97,7 @@ input:hover,
     width: 300px;
     height: 35px;    
 }
-.login-btn-signed{
+/* .login-btn-signed{
     background-color: #650164;
     border: none;
     /* background-color: #01255b; */
@@ -103,7 +106,7 @@ input:hover,
     width: 300px;
     height: 35px;
     text-align:center;
-}
+} */
 p.login-btn-signed{
     display: flex;
     justify-content: center;
