@@ -1,7 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Registerandlogin from './components/Registerandlogin';
 import Home from './components/Home';
-import NavBar from './NavBar';
 import Login from './components/Login';
 import { UserAuthContextProvider } from './context/UserAuthConfig';
 import './App.css';
@@ -20,7 +19,6 @@ function App() {
 
    <UserAuthContextProvider>
        <BrowserRouter>
-      <NavBar/>
      <Routes>
         <Route path='/create' element={<Registerandlogin/>}/>
         <Route path='/home' element={ <ProtectedRoute>
