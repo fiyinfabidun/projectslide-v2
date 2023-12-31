@@ -86,7 +86,9 @@ input:hover,
     font-size: 15px;
     color: black;
 }
-.login-btn
+.login-btn,
+.login-btnn-signed,
+.login-btn-signed
 {
     padding: 10px 30px;
     border: none;
