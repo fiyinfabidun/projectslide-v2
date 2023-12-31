@@ -8,13 +8,14 @@ section{
 img{
     width: 100%;
 }
-.image{
+.image,
+.image-login{
     background-color: #7fa1ea;
     /* background-color: #01255b */
 }
-.image-login{
+/* .image-login{
     background-color: #f1b4ef;
-}
+} */
 .grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -26,7 +27,8 @@ form{
     justify-content: center;
     align-items: center;
 }
-input{
+input,
+.signed{
     width: 300px;
     height: 35px;
     margin-top: 20px;
@@ -38,11 +40,12 @@ input{
     font-size: 16px;
 
 }
-input:hover{
+input:hover,
+.signed:hover{
     border: 2px solid #8fb0f2;
     background-color: #b9cbf2;
 }
-.signed{
+/* .signed{
     width: 300px;
     height: 35px;
     margin-top: 20px;
@@ -52,11 +55,11 @@ input:hover{
     border: 2px solid #650164;
     background-color: #f2f0f0;
     font-size: 16px;
-}
-.signed:hover{
+} */
+/* .signed:hover{
     border: 2px solid #f29cef;
     background-color: #fcdefb;
-}
+} */
 .intro-login,
 .intro-login-signed{
     font-size: 40px;
