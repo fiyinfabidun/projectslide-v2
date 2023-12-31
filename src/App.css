@@ -86,8 +86,7 @@ input:hover,
     font-size: 15px;
     color: black;
 }
-.login-btn,
-.login-btn-signed
+.login-btn
 {
     padding: 10px 30px;
     border: none;
@@ -112,6 +111,13 @@ p.login-btn-signed{
     justify-content: center;
     align-items: center;
     text-align:center;
+    padding: 10px 30px;
+    border: none;
+    background-color: #01255b;
+    color: white;
+    margin: 20px;
+    width: 200px;
+    height: 30px; 
 }
 .blue-text{
     text-align: center;
