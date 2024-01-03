@@ -20,16 +20,12 @@ import redcount from '../assets/Red Cell Indices ppt (3).pptx';
 import meth from '../assets/Methods for Blood Cell Counting (2).pptx';
 import principle from '../assets/Principle and Mode of Action Common Anticoagulants (2).pdf';
 import bloodfilm from '../assets/Untitled presentation (1).pdf';
-import anticoagulants from '../assets/Principle and Mode of Action Common Anticoagulants (2).pdf';
 import func from '../assets/FUNCTIONS OF BLOOD CELLS.pptx';
 
 
 function Phronesis() {
   const CLINICAL_CHEM=[
     { file: `${lesson1}`, filename: 'introductory to microbiology', label: 'introductory to microbiology' },
-    { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
-    { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
-    { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
   ]
   const HEAMAT=[
     { file: `${ert}`, filename: 'ERYTHROPOIESIS', label: 'ERYTHROPOIESIS' },
@@ -38,15 +34,16 @@ function Phronesis() {
      { file: `${func}`, filename: 'FUNCTIONS OF BLOOD CELLS', label: 'FUNCTIONS OF BLOOD CELLS' },
      { file: `${principle}`, filename: 'Principle and Mode of Action Common Anticoagulants ', label: 'PRINCIPLE AND MODE OF ACTION OF COMMON ANTICOAGULANTS' },
      { file: `${bloodfilm}`, filename: 'peripheral blood film reading and examination', label: 'PERIPHERAL BLOOD FILM READING AND EXAMINATION' },
-    { file: `${anticoagulants}`, filename: 'Principle and Mode of Action Common Anticoagulants ', label: 'PRINCIPLE AND MODE OF ACTION OF COMMON ANTICOAGULANTS' },
+   
     
 ]
 const HISTO=[
     { file: `${intod}`, filename: 'INTRODUCTION_TO_HISTO_PATHOLOGY ', label: 'INTRODUCTION_TO_HISTO_PATHOLOGY ' },
    { file: `${intro}`, filename: 'INTRODUCTION TO FIXATION', label: 'INTRODUCTION TO FIXATION' },
   { file: `${fixation2}`, filename: 'FIXATION 2', label: 'FIXATION 2' },
+   { file: `${tissue}`, filename: 'TISSUE PROCESSING', label: 'TISSUE PROCESSING' },
   { file: `${clear}`, filename: '/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION/(EMBEDDING)', label: ' DEHYDRATION, CLEARING, INFILTRATION' },
-  { file: `${tissue}`, filename: 'TISSUE PROCESSING', label: 'TISSUE PROCESSING' },
+ 
 ]
 const MICRO=[
   { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
