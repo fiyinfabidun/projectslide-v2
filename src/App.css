@@ -5,6 +5,8 @@ section{
    
     margin: 0 auto;
 }
+label{
+    text-transform:lowercase;
 img{
     width: 100%;
 }
