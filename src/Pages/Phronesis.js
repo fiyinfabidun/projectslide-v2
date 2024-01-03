@@ -3,11 +3,11 @@ import NavBar from '../components/NavBar';
 import HeroBakground from '../components/HeroBakground';
 import picture from '../assets/phronesis.jpg';
 // import PhronesisSlides from './PhroSLides';
-import lesson1 from '../assets/mls.pdf'
 import Test from './test';
 import Footer from '../components/Footer';
 // pharmac slides
 import phar1 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt';
+import phar2 from '../assets/Synthesis and Physiology of Neurotransmitters_non-major.pptx';
 // histo slides
 import intod from '../assets/INTRODUCTION_TO_HISTO_PATHOLOGY NEW (1).pptx';
 import intro from '../assets/INTRODUCTION TO FIXATION (2).pptx';
@@ -21,11 +21,22 @@ import meth from '../assets/Methods for Blood Cell Counting (2).pptx';
 import principle from '../assets/Principle and Mode of Action Common Anticoagulants (2).pdf';
 import bloodfilm from '../assets/Untitled presentation (1).pdf';
 import func from '../assets/FUNCTIONS OF BLOOD CELLS.pptx';
+// clinicAL CHEM
+import plasma from '../assets/PLASMA PROTEINS 300L.pptx';
+// micro
+import history from '../assets/MLS 333_ HISTORY  OF MICROBIOLOGY (1).pdf';
+import etha from '../assets/ETHANOL PRODUCTION _MICROORGANISM.pdf';
+// bch
+import bch1 from '../assets/BCH 222 INTRO METABOLISM APRIL 2023.pdf';
+import bch2 from '../assets/BCH 222 LECTURE METABOLISM 2021-converted.pdf';
+
+
+
 
 
 function Phronesis() {
   const CLINICAL_CHEM=[
-    { file: `${lesson1}`, filename: 'introductory to microbiology', label: 'introductory to microbiology' },
+    { file: `${plasma}`, filename: 'PLASMA PROTEINS 300L', label: 'PLASMA PROTEINS 300L' },
   ]
   const HEAMAT=[
     { file: `${ert}`, filename: 'ERYTHROPOIESIS', label: 'ERYTHROPOIESIS' },
@@ -46,19 +57,17 @@ const HISTO=[
  
 ]
 const MICRO=[
-  { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
-  { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
-  { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
+  { file: `${history}`, filename: 'MLS 333_ HISTORY  OF MICROBIOLOGY', label: 'MLS 333_ HISTORY  OF MICROBIOLOGY' },
+  { file: `${ etha }`, filename: 'ETHANOL PRODUCTION _MICROORGANISM', label: 'ETHANOL PRODUCTION _MICROORGANISM' },
 ]
   const BCH=[
-  { file: `${lesson1}`, filename: 'Link 2', label: 'Link 2' },
-  { file: `${lesson1}`, filename: 'Link 3', label: 'Link 3' },
-  { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
+  { file: `${bch1}`, filename: 'BCH 222 INTRO METABOLISM APRIL 2023', label: 'BCH 222 INTRO METABOLISM' },
+  { file: `${bch2}`, filename: 'BCH 222 LECTURE METABOLISM 2021-converted', label: 'BCH 222 LECTURE METABOLISM' },
+ 
 ]
 const PHARMAC=[
   { file: `${phar1}`, filename: 'PHARMACOKINETICS AND PHARMACODYNAMICS', label: 'Pharmacokinectics and Pharmacodynamics' },
-  { file: `${lesson1}`, filename: 'Pharmacokinetics and structure-activity relationship of drugs', label: 'Pharmacokinetics and structure-activity' },
-  { file: `${lesson1}`, filename: 'Link 4', label: 'Link 4' },
+  { file: `${phar2}`, filename: 'Synthesis and Physiology of Neurotransmitters_non-major', label: 'Synthesis and Physiology of Neurotransmitters_non-major' },
 ]
   return (
 
