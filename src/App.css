@@ -5,8 +5,10 @@ section{
    
     margin: 0 auto;
 }
-label{
-    text-transform:lowercase;
+label {
+  text-transform: capitalize;
+}
+
 img{
     width: 100%;
 }
