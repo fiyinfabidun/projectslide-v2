@@ -26,6 +26,8 @@ import plasma from '../assets/PLASMA PROTEINS 300L.pptx';
 // micro
 import history from '../assets/MLS 333_ HISTORY  OF MICROBIOLOGY (1).pdf';
 import etha from '../assets/ETHANOL PRODUCTION _MICROORGANISM.pdf';
+import genetics from '../assets/MLS333 BACTERIA GENETICS AND VARIATION.pdf';
+import bacteria from '../assets/MLS333 BACTERIA METABOLISM.ppt';
 // bch
 import bch1 from '../assets/BCH 222 INTRO METABOLISM APRIL 2023.pdf';
 import bch2 from '../assets/BCH 222 LECTURE METABOLISM 2021-converted.pdf';
@@ -57,12 +59,15 @@ const HISTO=[
  
 ]
 const MICRO=[
-  { file: `${history}`, filename: 'MLS 333_ HISTORY  OF MICROBIOLOGY', label: 'MLS 333_ HISTORY  OF MICROBIOLOGY' },
+  { file: `${history}`, filename: 'MLS 333_ HISTORY  OF MICROBIOLOGY', label: 'HISTORY  OF MICROBIOLOGY' },
   { file: `${ etha }`, filename: 'ETHANOL PRODUCTION _MICROORGANISM', label: 'ETHANOL PRODUCTION _MICROORGANISM' },
+  { file: `${genetics}`, filename: ' BACTERIA GENETICS AND VARIATION', label: ' BACTERIA GENETICS AND VARIATION' },
+  { file: `${bacteria}`, filename: 'BACTERIA METABOLISM', label: 'BACTERIA METABOLISM' },
+  
 ]
   const BCH=[
-  { file: `${bch1}`, filename: 'BCH 222 INTRO METABOLISM APRIL 2023', label: 'BCH 222 INTRO METABOLISM' },
-  { file: `${bch2}`, filename: 'BCH 222 LECTURE METABOLISM 2021-converted', label: 'BCH 222 LECTURE METABOLISM' },
+  { file: `${bch1}`, filename: 'BCH 222 INTRO METABOLISM APRIL 2023', label: 'INTRO METABOLISM' },
+  { file: `${bch2}`, filename: 'BCH 222 LECTURE METABOLISM 2021-converted', label: 'LECTURE METABOLISM' },
  
 ]
 const PHARMAC=[
