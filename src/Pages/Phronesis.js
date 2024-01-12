@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 // pharmac slides
 import phar1 from '../assets/PHARMACOKINETICS AND PHARMACODYNAMICS.ppt';
 import phar2 from '../assets/Synthesis and Physiology of Neurotransmitters_non-major.pptx';
+import phar3 from '../assets/Drug used in Renal failure, anticoagulant and.pptx';
 // histo slides
 import intod from '../assets/INTRODUCTION_TO_HISTO_PATHOLOGY NEW (1).pptx';
 import intro from '../assets/INTRODUCTION TO FIXATION (2).pptx';
@@ -28,9 +29,14 @@ import history from '../assets/MLS 333_ HISTORY  OF MICROBIOLOGY (1).pdf';
 import etha from '../assets/ETHANOL PRODUCTION _MICROORGANISM.pdf';
 import genetics from '../assets/MLS333 BACTERIA GENETICS AND VARIATION.pdf';
 import bacteria from '../assets/MLS333 BACTERIA METABOLISM.ppt';
+import steri from '../assets/MLS333 STERILISATION IN MICROBIOLOGY.ppt';
 // bch
 import bch1 from '../assets/BCH 222 INTRO METABOLISM APRIL 2023.pdf';
 import bch2 from '../assets/BCH 222 LECTURE METABOLISM 2021-converted.pdf';
+import bch3 from '../assets/Updated BCH211 WATER AND PH 2022 (1).pdf';
+import bch4 from '../assets/BCH 202 2017 VIT COF HORM.ppt';
+import bch5 from '../assets/LIPID METAB TRINITY.ppt';
+import bch6 from '../assets/BCH 211 2021-converted (1).pdf';
 
 
 
@@ -63,17 +69,24 @@ const MICRO=[
   { file: `${ etha }`, filename: 'ETHANOL PRODUCTION _MICROORGANISM', label: 'ETHANOL PRODUCTION _MICROORGANISM' },
   { file: `${genetics}`, filename: ' BACTERIA GENETICS AND VARIATION', label: ' BACTERIA GENETICS AND VARIATION' },
   { file: `${bacteria}`, filename: 'BACTERIA METABOLISM', label: 'BACTERIA METABOLISM' },
+  { file: `${steri}`, filename: 'STERILISATION IN MICROBIOLOGY', label: 'STERILISATION IN MICROBIOLOGY' },
   
 ]
   const BCH=[
   { file: `${bch1}`, filename: 'BCH 222 INTRO METABOLISM APRIL 2023', label: 'INTRO METABOLISM' },
   { file: `${bch2}`, filename: 'BCH 222 LECTURE METABOLISM 2021-converted', label: 'LECTURE METABOLISM' },
+      { file: `${bch3}`, filename: 'Updated BCH211 WATER AND PH 2022 ', label: 'WATER AND PH ' },
+      { file: `${bch4}`, filename: 'BCH 202 2017 VIT COF HORM', label: 'BCH 202 2017 VIT COF HORM' },
+      { file: `${bch5}`, filename: 'LIPID METAB TRINITY', label: 'LIPID METAB TRINITY' },
+      { file: `${bch6}`, filename: 'BCH 211 2021-converted ', label: 'PROKARYOTIC AND EUKARYOTIC CELLS'},
  
 ]
 const PHARMAC=[
   { file: `${phar1}`, filename: 'PHARMACOKINETICS AND PHARMACODYNAMICS', label: 'Pharmacokinectics and Pharmacodynamics' },
   { file: `${phar2}`, filename: 'Synthesis and Physiology of Neurotransmitters_non-major', label: 'Synthesis and Physiology of Neurotransmitters_non-major' },
+{ file: `${phar3}`, filename: '  Drug used in Renal failure, anticoagulant', label: '  Drug used in Renal failure, anticoagulant ' },
 ]
+
   return (
 
     <>
