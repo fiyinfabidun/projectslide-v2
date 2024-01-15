@@ -22,6 +22,8 @@ import meth from '../assets/Methods for Blood Cell Counting (2).pptx';
 import principle from '../assets/Principle and Mode of Action Common Anticoagulants (2).pdf';
 import bloodfilm from '../assets/Untitled presentation (1).pdf';
 import func from '../assets/FUNCTIONS OF BLOOD CELLS.pptx';
+import anemia from '../assets/INTRODUCTION TO ANAEMIAS.pptx';
+
 // clinicAL CHEM
 import plasma from '../assets/PLASMA PROTEINS 300L.pptx';
 // micro
@@ -53,7 +55,8 @@ function Phronesis() {
      { file: `${func}`, filename: 'FUNCTIONS OF BLOOD CELLS', label: 'FUNCTIONS OF BLOOD CELLS' },
      { file: `${principle}`, filename: 'Principle and Mode of Action Common Anticoagulants ', label: 'PRINCIPLE AND MODE OF ACTION OF COMMON ANTICOAGULANTS' },
      { file: `${bloodfilm}`, filename: 'peripheral blood film reading and examination', label: 'PERIPHERAL BLOOD FILM READING AND EXAMINATION' },
-   
+    { file: `${anemia}`, filename: 'INTRODUCTION TO ANAEMIAS', label: 'INTRODUCTION TO ANAEMIA' },
+
     
 ]
 const HISTO=[
