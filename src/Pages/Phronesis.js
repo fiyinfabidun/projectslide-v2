@@ -1,4 +1,4 @@
-⁹import React from 'react';
+import React from 'react';
 import NavBar from '../components/NavBar';
 import HeroBakground from '../components/HeroBakground';
 import picture from '../assets/phronesis.jpg';
@@ -15,7 +15,7 @@ import intro from '../assets/INTRODUCTION TO FIXATION (2).pptx';
 import fixation2 from '../assets/FIXATION 2.ppt';
 import clear from '../assets/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION(EMBEDDING).ppt';
 import tissue from '../assets/TISSUE PROCESSING.ppt';
-import basic from '../assets/BASIC HISTOLOGY MLS 300L.pptx';
+import basic from '../assets/BASIC HISTOLOGY  MLS 300L.pptx';
 import decal from '../assets/DECALCIFICATION.ppt';
 
 
@@ -70,7 +70,7 @@ const HISTO=[
    { file: `${tissue}`, filename: 'TISSUE PROCESSING', label: 'TISSUE PROCESSING' },
   { file: `${clear}`, filename: '/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION/(EMBEDDING)', label: ' DEHYDRATION, CLEARING, INFILTRATION' },
 { file: `${basic}`, filename: 'BASIC HISTOLOGY MLS 300L', label: 'BASIC HISTOLOGY'},
-{ file: `${decal}`, filename: 'DE CALCIFICATION', label: 'DE CALCIFICATION' },
+{ file: `${decal}`, filename: 'DECALCIFICATION', label: 'DECALCIFICATION' },
  
 ]
 const MICRO=[
