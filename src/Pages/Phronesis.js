@@ -15,6 +15,10 @@ import intro from '../assets/INTRODUCTION TO FIXATION (2).pptx';
 import fixation2 from '../assets/FIXATION 2.ppt';
 import clear from '../assets/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION(EMBEDDING).ppt';
 import tissue from '../assets/TISSUE PROCESSING.ppt';
+import basic from '../assets/BASIC HISTOLOGY MLS 300L.pptx';
+import decal from '../assests/DE CALCIFICATION.ppt';
+
+
 // haemat slides
 import ert from '../assets/ERYTHROPOIESIS-1 (1).pptx';
 import redcount from '../assets/Red Cell Indices ppt (3).pptx';
@@ -65,6 +69,8 @@ const HISTO=[
   { file: `${fixation2}`, filename: 'FIXATION 2', label: 'FIXATION 2' },
    { file: `${tissue}`, filename: 'TISSUE PROCESSING', label: 'TISSUE PROCESSING' },
   { file: `${clear}`, filename: '/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION/(EMBEDDING)', label: ' DEHYDRATION, CLEARING, INFILTRATION' },
+{ file: `${basic}`, filename: 'BASIC HISTOLOGY MLS 300L', label: 'BASIC HISTOLOGY'},
+{ file: `${decal}`, filename: 'DE CALCIFICATION', label: 'DE CALCIFICATION' },
  
 ]
 const MICRO=[
