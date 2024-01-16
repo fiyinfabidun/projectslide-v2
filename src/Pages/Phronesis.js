@@ -1,4 +1,4 @@
-import React from 'react';
+⁹import React from 'react';
 import NavBar from '../components/NavBar';
 import HeroBakground from '../components/HeroBakground';
 import picture from '../assets/phronesis.jpg';
@@ -16,7 +16,7 @@ import fixation2 from '../assets/FIXATION 2.ppt';
 import clear from '../assets/CMUL MLS 334 DEHYDRATION, CLEARING, INFILTRATION(EMBEDDING).ppt';
 import tissue from '../assets/TISSUE PROCESSING.ppt';
 import basic from '../assets/BASIC HISTOLOGY MLS 300L.pptx';
-import decal from '../assets/DE CALCIFICATION.ppt';
+import decal from '../assets/DECALCIFICATION.ppt';
 
 
 // haemat slides
