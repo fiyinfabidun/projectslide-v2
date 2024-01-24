@@ -27,9 +27,15 @@ import principle from '../assets/Principle and Mode of Action Common Anticoagula
 import bloodfilm from '../assets/Untitled presentation (1).pdf';
 import func from '../assets/FUNCTIONS OF BLOOD CELLS.pptx';
 import anemia from '../assets/INTRODUCTION TO ANAEMIAS.pptx';
+import ida from'../assets/IDA MLS 332.pptx';
 
 // clinicAL CHEM
 import plasma from '../assets/PLASMA PROTEINS 300L.pptx';
+import grn1 from '../assets/CARBOHYDRATE METABOLISM 300L.pptx';
+import grn2 from '../assets/DIABETES MELITUS CAUSES AND INVESTIGATIONS 300L LECTURE (1).pptx';
+import grn3 from '../assets/HYPOGLCEAMIA 300L.pptx';
+import grn4 from '../assets/Introduction to plasma lipids.pptx';
+import grn5 from '../assets/MLS 301 RENAL PLASMA FLOW & DYE EXCRETION TEST.pptx';
 // micro
 import history from '../assets/MLS 333_ HISTORY  OF MICROBIOLOGY (1).pdf';
 import etha from '../assets/ETHANOL PRODUCTION _MICROORGANISM.pdf';
@@ -51,6 +57,11 @@ import bch6 from '../assets/BCH 211 2021-converted (1).pdf';
 function Phronesis() {
   const CLINICAL_CHEM=[
     { file: `${plasma}`, filename: 'PLASMA PROTEINS 300L', label: 'PLASMA PROTEINS 300L' },
+    { file: `${grn1}`, filename: 'CARBOHYDRATE METABOLISM 300L', label: 'CARBOHYDRATE METABOLISM 300L' },
+    { file: `${grn2}`, filename: 'DIABETES MELITUS CAUSES AND INVESTIGATIONS 300L LECTURE (1)', label: 'DIABETES MELITUS CAUSES AND INVESTIGATIONS 300L LECTURE (1)'},
+    { file: `${grn3}`, filename: 'HYPOGLCEAMIA', label: 'HYPOGLCEAMIA' },
+    { file: `${grn4}`, filename: 'Introduction to plasma lipids', label: 'INTRODUCTION TO PLASMA LIPIDS' },
+    { file: `${grn5}`, filename: 'MLS 301 RENAL PLASMA FLOW & DYE EXCRETION TEST', label: 'RENAL PLASMA FLOW & DYE EXCRETION TEST' },
   ]
   const HEAMAT=[
     { file: `${ert}`, filename: 'ERYTHROPOIESIS', label: 'ERYTHROPOIESIS' },
@@ -60,6 +71,7 @@ function Phronesis() {
      { file: `${principle}`, filename: 'Principle and Mode of Action Common Anticoagulants ', label: 'PRINCIPLE AND MODE OF ACTION OF COMMON ANTICOAGULANTS' },
      { file: `${bloodfilm}`, filename: 'peripheral blood film reading and examination', label: 'PERIPHERAL BLOOD FILM READING AND EXAMINATION' },
     { file: `${anemia}`, filename: 'INTRODUCTION TO ANAEMIAS', label: 'INTRODUCTION TO ANAEMIA' },
+      { file: `${ida}`, filename: 'IDA MLS 332', label: 'IDA' },
 
     
 ]
@@ -79,6 +91,7 @@ const MICRO=[
   { file: `${genetics}`, filename: ' BACTERIA GENETICS AND VARIATION', label: ' BACTERIA GENETICS AND VARIATION' },
   { file: `${bacteria}`, filename: 'BACTERIA METABOLISM', label: 'BACTERIA METABOLISM' },
   { file: `${steri}`, filename: 'STERILISATION IN MICROBIOLOGY', label: 'STERILISATION IN MICROBIOLOGY' },
+  
   
 ]
   const BCH=[
